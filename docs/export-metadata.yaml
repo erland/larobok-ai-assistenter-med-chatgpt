@@ -1,0 +1,52 @@
+title: Bygg AI-assistenter med ChatGPT
+subtitle: En praktisk guide till egna GPT:er och AI-arbetsflöden
+author: Erland Lindmark
+language: sv
+difficulty: beginner
+audience: Personer som har använt ChatGPT men aldrig skapat egna GPT:er
+book_type: textbook
+edition: '1'
+version: '0.2'
+date: '2026-05-14'
+rights: All rights reserved
+publisher: ''
+cover_image: assets/cover/cover.png
+identifier: urn:uuid:7cbcf587-32d1-4e64-b4c6-4ee9920ebeb0
+creator_role: aut
+subject: AI-assistenter, ChatGPT, GPT:er, research, omvärldsbevakning
+description: En praktisk nybörjarguide till att bygga egna GPT:er och AI-arbetsflöden
+  med fokus på öppen information, research och produktjämförelser.
+project_slug: bygg-ai-assistenter-med-chatgpt
+zip_naming:
+  initial: bygg-ai-assistenter-med-chatgpt-projekt.zip
+  chapter_update: bygg-ai-assistenter-med-chatgpt-projekt-kapitel-NN.zip
+chapters:
+- chapters/00-inledning.md
+- chapters/01-fran-vanlig-chatgpt-till-egna-ai-assistenter.md
+- chapters/02-din-forsta-egna-gpt.md
+- chapters/03-instruktioner-som-faktiskt-fungerar.md
+- chapters/04-kunskapsfiler-och-specialiserad-kunskap.md
+- chapters/05-produktjamforelser-med-ai-analytikern.md
+- chapters/06-nar-gpter-inte-racker.md
+- chapters/07-specialiserade-assistenter-for-olika-analysuppgifter.md
+- chapters/08-testning-och-forbattring.md
+- chapters/09-vanliga-misstag-och-daliga-designmonster.md
+- chapters/10-ai-agenter-och-automatisering-utanfor-chatgpt.md
+- chapters/11-flera-assistenter-som-samarbetar.md
+- chapters/12-bygg-ditt-personliga-ai-system.md
+- chapters/13-nasta-steg-efter-forsta-versionen.md
+exports:
+  epub:
+    enabled: true
+    include_text_toc: false
+    airy_layout: true
+    render_markdown_styles: true
+  pdf:
+    enabled: true
+    include_toc_before_introduction: true
+    render_markdown_styles: true
+  docx:
+    enabled: true
+    render_markdown_styles: true
+  markdown:
+    enabled: true
